@@ -1,9 +1,14 @@
 
+body{
+  background-color: #8CC63F;
+}
+
 .CoverImage {
-  width: 50%;
+  width: 100%;
   background-size: contain;
   margin: 0 auto;
   margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 .CoverImage img {
@@ -17,6 +22,37 @@
 .video {
   width: 50%;
   margin: 0 auto;
+  text-align: center;
+}
+
+.Social {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 36px;
+}
+.Social .bar
+{
+  float : right;
+}
+
+.Social .Centerbar
+{
+  width: 12.5%;
+  margin: auto;
+  height: 100%;
+}
+
+.SocialImage img
+{
+  width: 24px;
+  height: 24px;
+}
+
+.SocialImage
+{
+  width:30%;
+  display: inline-block;
   text-align: center;
 }
 
