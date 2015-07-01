@@ -58,8 +58,17 @@ body{
   margin-bottom: 10px;
   width: 100%;
   height: 36px;
-    display: inline-block;
+  display: inline-block;
   text-align: center;
+}
+
+.License
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
 }
 
 .youtube-player { display: block; margin: 0 auto; }
