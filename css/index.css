@@ -1,111 +1,32 @@
 
-body{
-  background-color: #8CC63F;
-}
+body{ background-color: #8CC63F; }
+.clear { clear: both;}
 
-.CoverImage {
-  width: 100%;
-  background-size: contain;
-  margin: 0 auto;
+/* Banners */
+.centerdiv { width: 100%; background-size: contain; margin: 0 auto; }
+.centerdiv img { width:45%; height:50%; display: block;  margin-left: auto; 
+            margin-right: auto; margin-top: 50px; }
+.left  { float:left; }
+.right { float:right; }  
+.video { width: 50%; margin: 0 auto; text-align: center; }
+.banner { margin: 0 auto;}
 
-}
+/* Social Bar */
+.Social { width: 100%; height: 24px; }
+.Social .Centerbar { width: 12.5%; margin: 0 auto; }
+.SocialImage img { width: 24px; }
+.SocialImage { width:30%; display: inline-block; text-align: center;}
 
-.CoverImage img {
-  width:50%;
-  height:50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 50px;
-  margin-top: 50px;
-}
+/* PayPal Button */
+.PayPalBar{ width: 100%; display: inline-block; text-align: center; margin-top: 10px }
+.PayPalBar table { margin-left: auto; margin-right: auto;}
 
-.video {
-  width: 50%;
-  margin: 0 auto;
-  text-align: center;
-}
+/*Footer */
+footer { margin-top: 20px;}
+.License{ bottom: 0; width: 100%; display: inline-block; text-align: center; }
+.links {text-decoration: none; text-align: center}
+.KickVideo { width: 100%; height: 480px; background-size: contain; margin: 0 auto; 
+             margin-bottom: 50px; margin-top: 50px; }
 
-.Social {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  width: 100%;
-  height: 36px;
-}
-
-.Social .Centerbar
-{
-  width: 12.5%;
-  margin: auto;
-  height: 100%;
-}
-
-.SocialImage img
-{
-  width: 24px;
-  height: 24px;
-}
-
-.SocialImage
-{
-  width:30%;
-  display: inline-block;
-  text-align: center;
-}
-
-.PayPalBar
-{
-  margin-top: 10px;
-  margin-bottom: 10px;
-  width: 100%;
-  height: 36px;
-  display: inline-block;
-  text-align: center;
-}
-
-.License
-{
-    bottom: 0;
-    width: 100%;
-    display: inline-block;
-    text-align: center;
-}
-
-.KickVideo
-{
-  width: 100%;
-  height: 480px;
-  background-size: contain;
-  margin: 0 auto;
-  margin-bottom: 50px;
-  margin-top: 50px;
-}
-
-.KickVideo iframe
-{
-  width:50%;
-  height:100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto
-}
-
-.KickWidget
-{
-  width: 100%;
-  background-size: contain;
-  margin: 0 auto;
-  margin-bottom: 25px;
-  margin-top: 25px;
-}
-
-.KickWidget iframe
-{
-  height: 420px;
-  width: 220px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto
-}
-
+.KickVideo iframe { width:50%; height:100%; display: block; margin-left: auto; margin-right: auto }
 .youtube-player { display: block; margin: 0 auto; }
