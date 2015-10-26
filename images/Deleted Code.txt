@@ -1,0 +1,9 @@
+<div class="SocialImage">
+	      	<a href="https://www.thegamecrafter.com/games/i-see-what-you-did-there" target="_blank"><img  src="images/buy.png" alt="Buy" /></a>
+	    </div>
+		
+
+
+<div class= "KickWidget">
+        <iframe frameborder="0"  scrolling="no" src="https://www.kickstarter.com/projects/459648706/i-see-what-you-did-there-18/widget/card.html?v=2"></iframe>
+      </div>
