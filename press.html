@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>I See What You Did There - Press</title>
+  <link rel="stylesheet" type="text/css" href="css/press.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script type="text/javascript">
+    if (screen.width <= 699) {
+      changeCSS("css/mobilepress.css", 0);
+    }
+
+    function changeCSS(cssFile, cssLinkIndex) {
+      var oldlink = document.getElementsByTagName("link").item(cssLinkIndex);
+      var newlink = document.createElement("link");
+      newlink.setAttribute("rel", "stylesheet");
+      newlink.setAttribute("type", "text/css");
+      newlink.setAttribute("href", cssFile);
+
+      document.getElementsByTagName("head").item(0).replaceChild(newlink, oldlink);
+    }
+  </script>
+</head>
+
+<body>
+
+<div class="pagewidth">
+
+  <div class ="pressimg">
+    <img alt="PressKit" src="images/presskitlogo.png" />
+  </div>
+  <div class="history">
+    <h2> History</h2>
+    <p>
+      After countless hours, toiled away at parties playing the same old party games, a group of 4 DePaul students got together to see if they could make a game that’s just as fun, if not more so! We spent hours dissecting what made parties fun, and what made people want to play party games. How could we both break the ice, and make people slightly uncomfortable? Thus I See What You Did There was conceptualized, designed, playtested, thrown out, redesigned, playtested and then after 8 months we were finally Kickstarted.
+    </p>
+  </div>
+
+  <div class="video">
+    <h2> Video </h2>
+    <h3> Kickstarter Campaign Video </h3>
+    <div class="KickVideo">
+      <iframe width="500" height="300" src="https://www.kickstarter.com/projects/459648706/i-see-what-you-did-there-18/widget/video.html" frameborder="0" scrolling="no"> </iframe>
+    </div>
+
+    <div class = "factsheet" >
+      <h2> Factsheet </h2>
+      <h3> Developer </h3>
+      <p> I See What You Did There Game <br>
+        Based in Chicago, Illinois
+      </p>
+
+      <h3> Founded </h3>
+      <p> December, 2014 </p>
+
+      <h3> Website </h3>
+      <p> ISeeWhatYouDidThereGame.com </p>
+
+      <h3> Press/Business Contact </h1>
+      <p> press@ISeeWhatYouDidThereGame.com </p>
+
+
+      <h3> Social </h3>
+      <p>Twitter<br>
+      Facebook<br>
+      Instagram</p>
+
+      <h3>Game Available Through</h3>
+      <p>
+      I See What You Did There Website<br>
+      The Game Crafter
+      </p>
+
+      <h3> Team </h3>
+      <p>Will Cain<br>
+      <i>Art</i></p>
+      <p>Katryna Check<br>
+      <i>Graphic Design</i></p>
+      <p>Riley Halligan<br>
+      <i>Original Concept</i></p>
+      <p>Alex Smith<br>
+      <i>Project Lead</i></p>
+
+      <h3>Collaborator </h3>
+        <p>Omar Zohdi<br>
+          <i>Webmaster</i> </p>
+    </div>
+  <div>
+</div>
+
+</body>
+
+</html>
