@@ -1,5 +1,3 @@
-
-body{ background-color: #8CC63F; }
 .clear { clear: both;}
 
 /* PAGE */
@@ -15,5 +13,7 @@ body{ background-color: #8CC63F; }
              margin-bottom: 50px; margin-top: 50px; }
 
 .KickVideo iframe { width:100%; height:100%; display: block; margin-left: auto; margin-right: auto }
-.factsheet {}
+.factsheet {float:left;}
+.pressimages{float:right; width:45%;}
+.pressimages img{width: 25%;}
 .team {}
