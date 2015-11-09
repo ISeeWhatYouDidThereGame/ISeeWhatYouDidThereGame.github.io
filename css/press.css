@@ -17,7 +17,7 @@
 .factsheet {float:left;}
 .pressimages img{width: 25%;}
 
-  @media screen and (max-width: 699px)
+  @media screen and (max-width: 800px)
   {
       body p {text-align: center;}
       h2, h3 {text-align: center;}
