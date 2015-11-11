@@ -4,6 +4,7 @@
 
 .pagewidth { width: 800px; margin: 0 auto; }
 .pressimg { float: left; width: 100%; }
+.pressimg img { content: url("../images/PressKitLogo.png")}
 
 .history { float:right; width: 60%; margin-top: -250px}
 .history p { text-align: justify;}
@@ -17,15 +18,15 @@
 .factsheet {float:left;}
 .pressimages img{width: 25%;}
 
-  @media screen and (max-width: 800px)
+  @media screen and (max-width: 799px)
   {
       body p {text-align: center;}
       h2, h3 {text-align: center;}
      .pagewidth { width: 100%; margin: 0;}
      .pressimg { float: none;}
-     .pressimg img {width: 100%;}
+     .pressimg img {width: 100%; content: url("../images/MobilePressKit.png")}
 
-     .history { margin-top: -120px;}
+     .history { margin-top: 0px; float:none; width: 100%;}
      .video { margin-top: 10px; width: 100%;}
 
      .KickVideo { width:100%; height: 150px;}
